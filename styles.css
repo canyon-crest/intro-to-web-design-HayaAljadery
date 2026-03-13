@@ -1,1 +1,54 @@
 
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #9FB5C4;
+    color:darkslategray;
+    margin: 0;
+    padding:0;
+    text-align: left;
+    line-height:1.6;
+}
+
+h1{
+    font-size: 3rem;
+    color: darkslategray;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 3rem;
+    font-style:italic;
+    font-weight: normal;
+    color: darkslategray;
+    margin: 0 auto 30px auto;
+    width: 80%;
+}
+
+h3{
+    font-size: 1.8rem;
+    color:darkslategray;
+      margin-top: 40px;
+      margin-bottom: 15px;
+}
+
+P{
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    font-size: 1.05rem;
+    background-color:#9FB5C4;
+    padding:18px;
+    border-radius:12px;
+}
+
+img{
+    width:300px;
+    max-width: 90%;
+    Height: auto;
+    margin: 15px;
+    display: block;
+    border-radius: 14px;
+}
+
