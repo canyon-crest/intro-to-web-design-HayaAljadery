@@ -9,6 +9,11 @@ body {
     text-align: left;
     line-height:1.6;
 }
+.container{
+    width:800px;
+    margin: 0 auto;
+    background-color:ivory;
+}
 
 h1{
     font-size: 3rem;
@@ -44,11 +49,30 @@ P{
 }
 
 img{
-    width:300px;
-    max-width: 90%;
-    Height: auto;
-    margin: 15px;
-    display: block;
+    width:180px;
     border-radius: 14px;
+    border: solid 3px grey;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
+.wrap-img{
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.didyouknow {
+  width: 250px;
+  padding: 15px;
+  margin: 20px auto;
+  border: 1px solid #aaa;
+  background-color: #eef4f7;
+  text-align: left;
+}
+
+
+
 
