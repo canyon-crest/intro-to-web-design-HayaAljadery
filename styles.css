@@ -1,8 +1,8 @@
 
 
 body {
-    font-family:'Times New Roman', Times, serif;
-    background-color: #9FB5C4;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #9FB5C4, #c7d6df);
     color:darkslategray;
     margin: 0;
     padding:0;
@@ -10,9 +10,14 @@ body {
     line-height:1.6;
 }
 .container{
-    width:800px;
+    box-sizing:border-box;
+    width:1000px;
     margin: 0 auto;
     background-color:ivory;
+    padding: 25px;
+ border-left: 4px solid #4a6fa5;
+  border-right: 4px solid #4a6fa5;
+
 }
 
 h1{
@@ -62,16 +67,115 @@ img{
   margin-right: 20px;
   margin-bottom: 10px;
   border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wrap-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
 
 .didyouknow {
-  width: 250px;
+   width: 250px;
   padding: 15px;
+  float: right;
   margin: 20px auto;
-  border: 1px solid #aaa;
-  background-color: #eef4f7;
+  border-left: 6px solid #4a6fa5;
+  background: linear-gradient(to right, #eef4f7, #dce8ef);
   text-align: left;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
 }
+
+.early {
+  border-left: 6px solid #5c7c8a;
+}
+
+.interests {
+  border-left: 6px solid #7aa6c2;
+  background-color: #e6f0f5;
+}
+
+.goals {
+  border-left: 6px solid #4a6fa5;
+  font-style: italic;
+}
+
+a:link {
+  color: #2b5d7c;       
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:visited {
+  color: #6a4c93;      
+}
+
+a:hover {
+  color: #b45f06;      
+  text-decoration: underline;
+}
+
+a:active {
+  color: #d62828;       
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  p {
+    width: 85%;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrap-img {
+    width: 130px;
+  }
+
+  p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .didyouknow {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .wrap-img {
+    float: none;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+
+  p {
+    width: 95%;
+    font-size: 0.95rem;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  .didyouknow {
+    width: 90%;
+    text-align: center;
+  }
+}
+#pic1 { float: left; }
+#pic2 { float: right; }
+#pic3 { float: left; }
+
+
 
 
 
